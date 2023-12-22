@@ -1,3 +1,6 @@
+import dotenv
+dotenv.load_dotenv()
+
 """
 Django settings for jibberjam project.
 
@@ -20,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-4+!&!&t--kmhh!@b6j+rb(8j7vc@+2f8s$z#d+ui^$1+%@k_%a'
+SECRET_KEY = 'DJANGO_SECRET_KEY'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
